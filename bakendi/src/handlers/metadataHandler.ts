@@ -5,6 +5,10 @@ export const metadataHandler = async (req: Request, res: Response): Promise<Resp
     {
       href: '/quotes/today',
       methods: ['GET'],
+    },
+    {
+      href: '/quotes/fiftyrandom',
+      methods: ['GET']
     }
   ]);
 }
